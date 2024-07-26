@@ -1,0 +1,65 @@
+-- FUNÇÕES DE AGREGAÇÃoptimize
+
+USE DB_CDS;
+
+
+ -- MÉDIA
+ -- EX RETORNAR A MÉDIA DE PREÇO DOS CDs 
+ 
+   SELECT AVG(VAL_CD)  FROM TITULO;
+   
+   
+   -- MAIOR VALOR 
+   -- EX.RETORNAR O CD MAIS CARO
+   
+   SELECT MAX(VAL_CD) FROM TITULO;
+   
+   
+   -- MENOR VALOR 
+   -- EX.RETORNAR O CD MAIS BARATO
+   
+   SELECT MIN(VAL_CD) FROM TITULO;
+   
+   -- SOMA VALORES 
+   -- EX. RETORNAR O VALOR TOTAL DOS CDs
+   
+   SELECT SUM(VAL_CD) AS 'VALOR TOTAL' FROM TITULO;
+   
+   -- CONTAGEM DE REGISTROS 
+   -- EX. RETORNAR O TOTAL DE FUNCIONARIOS DA BASE
+   
+   SELECT COUNT(*) FROM FUNCIONARIO;
+   
+   -- RETORNAR UMA PARTE DO REGISTRO
+   
+   SELECT SUBSTRING(NOME_FUNC, 2, 6 ) FROM FUNCIONARIO; 
+   
+   SELECT * FROM FUNCIONARIO;
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
